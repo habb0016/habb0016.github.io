@@ -1,0 +1,48 @@
+/* inheritance*/
+body {
+    font-family: Verdana;
+    font-size: 18 px;
+}
+
+/* select multiple elements */
+header,footer {
+    background-color: cornflowerblue;
+}
+
+/* class selector */
+.site-title {
+    color: white;
+}
+
+/*id selector */
+
+#my-image {
+    /* x,y,blurr,spread,color */
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+/* replace bullets from hobbies with squares*/
+ul.hobby-list {
+    list-style-type: square;
+    
+}
+
+/* nth child selector */
+ul.hobby-list li:nth-child(odd){
+    background-color: lightgray;
+}
+
+/* styling the navigation */
+
+/*remove underline and add background and borders*/
+nav a {
+   text-decoration: none;
+   background-color: lightgray;
+   border: 3px solid gray; 
+}
+
+/* change link background color and border color when hovered*/
+nav a:hover {
+    background-color: lightblue;
+    border: 3px solid blue;
+}
