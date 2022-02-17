@@ -17,7 +17,20 @@ body {
 main {
     margin: 0 auto;
     height: 100%;
-    width: 96%;
+    width: 98%;
+}
+h3{
+    font-size: 1.3em;
+    font-weight:bold;
+    margin-bottom: 0.5em;
+}
+/* line up bullets and h3 and  */
+#facts ul {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    list-style:disc;
+    width: 66%;
+      
 }
 
 #wrap {
