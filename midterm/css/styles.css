@@ -1,0 +1,66 @@
+/*global settings for after reset.css*/
+html {
+    font-size: 16px;
+    background-color: #AAD4CF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+/* leave 1/6 of the screen (vertically) on each side of body */
+body {
+    margin: 0 auto;
+    height: 100%;
+    width: 66%;
+    background-color: #D4E9E7;
+}
+/*setting margins for main*/
+main {
+    margin: 0 auto;
+    height: 100%;
+    width: 96%;
+}
+
+#wrap {
+    margin: 1em 0em;
+}
+/* wraps text around image of starfish */
+.left {
+    float: left;
+    margin-right:1em;
+}
+
+/* add margin and sizes h2 */
+article h2{
+    margin-bottom: 0.5em;
+    font-size:2vmax;
+    font-weight: bold;
+    
+}
+
+/* resize image */
+#pic {
+    max-width: 25%;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+/* keeps image in banner responsive */
+.banner {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+/* somewhat responsive title positioned on starfish image */
+.title {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top:60%;
+    left:0%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 4.5vmax;
+}
