@@ -45,7 +45,7 @@ h3{
 /* add margin and sizes h2 */
 article h2{
     margin-bottom: 0.5em;
-    font-size:2vmax;
+    font-size:1.65vmax;
     font-weight: bold; 
 }
 /* resize image */
@@ -148,7 +148,8 @@ nav ul {
 /* adds borders to right of list item  */
 nav li {
     float: left;
-    border-right: 1px solid black; 
+    width: 33%;
+    border-right: 1px solid black;
 }
 /* removes border from last child */
 nav li:last-child {
