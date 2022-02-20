@@ -25,12 +25,14 @@ h3{
     font-weight:bold;
     margin-bottom: 0.5em;
 }
-/* line up bullets and h3 and  */
+/* styles facts section  */
 #facts ul {
     margin-left: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     list-style:disc;
-    width: 66%;  
+    width: 75%; 
+    font-weight: bold;
+    font-size: 1rem;
 }
 #wrap {
     margin: 1em 0em;
@@ -48,7 +50,7 @@ article h2{
 }
 /* resize image */
 #pic {
-    max-width: 25%;
+    max-width: 20%;
     height: auto;
     margin-bottom: 1.5em;
 }
@@ -61,10 +63,10 @@ article h2{
     position: relative;
     color: white;
     text-align: center;
+    
 }
 /* somewhat responsive title positioned on starfish image */
 .title {
-    height: 100%;
     width: 100%;
     position:absolute;
     top:60%;
@@ -83,7 +85,12 @@ article h2{
     margin-left: 1rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    margin-right: 1rem;;
+    margin-right: 1.5rem;
+}
+/* styles article */
+.long_text{
+    font-size: 1.05rem;
+    font-family:'Arial Narrow Bold', sans-serif;
 }
 /* radio buttons styling */
 
@@ -92,17 +99,31 @@ article h2{
     background-color: #D4E9E7;
     height: 2.2em;
     width: 3.7em;
+    margin-left: 0.5rem;
 }
-/* styles textboxes in content */
+/* styles textboxes and radiobuttons in content by ID */
 #name {
     width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 #email {
     width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
-
-#message{
+#message {
     width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+#question {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+#radio_buttons {
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 /* styles footer */
 footer p {
@@ -112,5 +133,34 @@ footer p {
 }
 /* adds space below footer */
 #space {
+    /*changes colour of text (period)*/
     color:#D4E9E7;
+}
+
+/* styles navigation list */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D4E9E7;
+}
+/* adds borders to right of list item  */
+nav li {
+    float: left;
+    border-right: 1px solid black; 
+}
+/* removes border from last child */
+nav li:last-child {
+    border-right: none;
+}
+/* styles navigation links */
+nav a {
+
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.5rem 7.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
