@@ -55,16 +55,16 @@
                     <label for="email">Your Email</label><br>
                     <input type="email" id="email"><br>
                     <label for="message">Your Message</label><br>
-                    <input type="text" id="message"><br>
-                    <!-- set up radio buttons -->
+                    <textarea id="message" rows="5"></textarea><br>
+                    <!-- sets up radio buttons -->
                     <p id="question">Would you like to visit the starfish?</p>
                     <div id="radio_buttons">
-                        <input type="radio" id="yes" name="answer" value="Yes">
                         <label for="yes">Yes</label>
-                        <input type="radio" id="no" name="answer" value="No">
+                        <input type="radio" id="yes" name="answer" value="Yes">
                         <label for="no">No</label>
-                        <input type="radio" id="maybe" name="answer" value="Maybe">
-                        <label for="maybe">Maybe</label><br>
+                        <input type="radio" id="no" name="answer" value="No">
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" id="maybe" name="answer" value="Maybe"><br>
                     </div> 
                     <!-- creates button to submit form -->
                     <input class="button" type="submit" value="send">
@@ -74,6 +74,7 @@
     </main>
     <footer>
         <p>© Lone Starfish.</p>
+        <!-- Adds invisible text so bottom of page matches mockup -->
         <p id="space">.</p>
     </footer>
 </body>
