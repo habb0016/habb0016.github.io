@@ -1,10 +1,36 @@
 /*global settings for after reset.css*/
 html {
-    font-size: 16px;
     background-color: #AAD4CF;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+box-sizing: inherit;
+}
+
+/* styles h1, h2, h3, p */
+h1 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+/* styles h2 */
+h2 {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+/* styles h3 */
+h3 {
+    font-size: 1.17em;
+    font-weight: bolder;
+}
+/* styles p */
+p {
+    font-size: 1em;
     font-weight: normal;
-    font-style: normal;
 }
 /* leave 1/6 of the screen (vertically) on each side of body */
 body {
@@ -13,130 +39,30 @@ body {
     width: 66%;
     background-color: #D4E9E7;
 }
-/*setting margins for main*/
-main {
-    margin: 0 auto;
-    height: 100%;
-    width: 98%;
-}
-/* setting size and margin for heading 3 */
-h3{
-    font-size: 1.4em;
-    font-weight:bold;
-    margin-bottom: 0.5em;
-}
-/* styles facts section  */
-#facts ul {
-    margin-left: 1em;
-    margin-bottom: 1.5em;
-    list-style:disc;
-    width: 75%; 
-    font-weight: bold;
-    font-size: 0.9rem;
-}
-/* id for div containing wrapped article to image */
-#wrap {
-    margin: 1em 0em;
-}
-/* wraps text around image of starfish */
-.left {
-    float: left;
-    margin-right:1em;
-}
-/* add margin and sizes h2 */
-article h2{
-    margin-bottom: 0.5em;
-    font-size:1.65vmax;
-    font-weight: bold; 
-}
-/* resize image */
-#pic {
-    max-width: 20%;
-    height: auto;
-    margin-bottom: 1.5em;
-}
-/* keeps image in banner responsive */
-.banner {
-    height: 100%;
-    width: 100%;
-}
-.container {
+.container{
     position: relative;
     color: white;
     text-align: center;
 }
-/* somewhat responsive title positioned on starfish image */
-.title {
+/* banner size */
+.banner{
     width: 100%;
+    height: 100%;
+}
+/* styles and positions title */
+header h1 {
     position:absolute;
     top:60%;
-    left:0%;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 4.5vmax;
-}
-/* styles form without heading */
-#formbox {
-    border-style: solid;
-    border-width: 0.1rem;
-    margin-bottom: 1.5rem;
-}
-/* styles form content */
-#form_content{
-    margin-left: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    margin-right: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:600;
-}
-/* styles article */
-.long_text{
-    font-size: 1rem;
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: 1.25;
-}
-/* change button styling */
-.button {
-    background-color: #D4E9E7;
-    height: 2.2em;
-    width: 3.7em;
-    
-}
-/* styles textboxes and radiobuttons in content by ID */
-/* name */
-#name {
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-}
-/* email (textbox)*/
-#email {
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-}
-/* message (textbox) */
-#message {
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    resize: none;
-}
-/* question (paragraph) */
-#question {
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-}
-#radio_buttons {
-    font-weight: 600;
-    margin-bottom: 1rem;
+    left:34%;
+    font-size: 3.5em;
+    font-weight: normal;
 }
 /* styles navigation list */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 100%;
     overflow: hidden;
     background-color: #D4E9E7;
 }
@@ -157,16 +83,10 @@ nav a {
     text-align: center;
     padding: 0.5rem 7.5rem;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.5em;
+    text-transform:uppercase;
 }
-/* styles footer */
-footer p {
-    margin-right: 1.5rem;
-    margin-bottom: 0.5rem;
-    text-align: right;
-}
-/* adds space below footer */
-#space {
-    /*changes colour of text (period)*/
-    color:#D4E9E7;
+/* styles wrapper */
+.wrapper {
+    
 }
