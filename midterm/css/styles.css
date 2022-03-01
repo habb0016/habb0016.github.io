@@ -86,7 +86,40 @@ nav a {
     font-size: 1.5em;
     text-transform:uppercase;
 }
-/* styles wrapper */
+/* adds margin to wrapper */
 .wrapper {
-    
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    padding-bottom: 1rem;
+}
+/* styles main */
+main {
+
+}
+/* id for div containing wrapped article to image */
+#wrap {
+    margin-bottom: 1em;
+}
+/* styles h2 in wrap */
+#wrap h2 {
+    font-size: 2.08vmax;
+    margin-bottom: 0.25em;
+}
+/* styles p in wrap */
+#wrap p {
+    font-size: 1.18vmax;
+}
+/* wraps text around image */
+.left {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1.25em;
+}
+/* image resize */
+#pic {
+    max-width: 25%;
+    height: auto;
+}
+/* clear rest of page */
+#rest {
+    clear: left;
 }
