@@ -106,7 +106,8 @@ main {
 }
 /* styles p in wrap */
 #wrap p {
-    font-size: 1.18vmax;
+    font-size: 1.075vmax;
+    line-height: 1.25;
 }
 /* wraps text around image */
 .left {
@@ -122,4 +123,72 @@ main {
 /* clear rest of page */
 #rest {
     clear: left;
+}
+/* styles facts */
+#facts h3 {
+    font-size: 1.625vmax;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#facts ul {
+    list-style-type: disc;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+#facts p {
+    font-weight: bold;
+    font-size: 1vmax;
+}
+/* sizes h3 of contact form */
+#form_section h3 {
+    font-size: 1.625vmax;
+    padding-bottom: 0.5em;
+}
+/* styles form */
+form {
+    border: solid 2px black;
+    padding: 1.5em 1em 1em 1em ;
+}
+/* sets width for name box */
+#name {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+/* sets width for email box */
+#email {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+/* remove resize and set width */
+#message {
+    resize: none;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+/* styles question and radio buttons */
+#question {
+    font-weight: bolder;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.2vmax;
+}
+#radio_buttons {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+/* styles button */
+.button {
+    background-color: #D4E9E7;
+    padding: 0.5em;
+}
+/* styles footer */
+footer p {
+    text-align: right;
+    padding-top: 2em;
+    padding-right: 2em;
+    font-weight: bold;
+    font-size: 1vmax;
 }
