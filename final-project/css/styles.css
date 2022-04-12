@@ -58,19 +58,44 @@ html {
 *:after{
     box-sizing: inherit;
 }
-/* styles h1, h2, h3, body */
-h1{
+/* styles h1, h2, h3, body, a, p */
+h1 {
     font-size: 50px;
     font-weight: bolder;
 }
-h2{
+h2 {
     font-size: 39px;
     font-weight: bold;
 }
-h3{
+h3 {
     font-size: 25px;
     font-weight: bold;
 }
-body{
-    font-size: 18px;
+p { font-size: 18px; }
+/* all regular buttons */
+.bttn { font-size: 20px; }
+a { font-size: 20px; }
+/* mobile first */
+.wrapper {
+    padding: 1em;
+}
+/* add background colour to navigation */
+div.navigation {
+    background-color: #222;
+}
+/* welcome background image */
+div.welcome {
+    background-image: url("../images/main-banner.jpg");
+}
+/* class of background that needs background of #ffe6ac */
+.background {
+    background-color: #ffe6ac;
+}
+/* background for our vision */
+div.our-vision {
+    background-image: url("../images/vision.jpg");
+}
+/* background for footer */
+footer {
+    background-color: #222;
 }
