@@ -62,6 +62,10 @@ html {
 h1 {
     font-size: 60px;
     font-weight: bolder;
+    /* spacing for welcome */
+    line-height: 1.5;
+    padding-bottom: 1rem;
+    
 }
 h2 {
     font-size: 39px;
@@ -92,6 +96,13 @@ div.navigation {
 .box {
     background-color: #c78c06;
 }
+/* styles button in welcome */
+.connect {
+    background-color: #c78c06;
+    color: black;
+    padding: 1em;
+    margin-top: 0.5em;
+}
 /* styles nav links */
 nav a {
     /* remove underline, space and display inline for nav links */
@@ -113,7 +124,6 @@ given display of flex */
     border: solid 1px #c78c06;
     padding: 4px;
 }
-
 /* sets default color for home button */
 div.box a {
     color: #222;
@@ -130,9 +140,25 @@ nav a:link, a:visited {
 nav a:hover, a:active {
     color:white;
 }
-/* welcome background image */
+/* welcome background image and flex */
 div.welcome {
     background-image: url("../images/main-banner.jpg");
+    background-size: 100%;
+    display: flex;
+    padding: 4em 0 4em 0;
+}
+/* styles welcome section */
+section.welcome {
+    color: white;
+    padding-top: 2.5rem;
+}
+.wrap-welcome {
+    width: 95%;
+}
+/* adds faded background to welcome section */
+section.alpha {
+    background-color: rgba(0, 0, 0, 70%);
+    width: 100%;
 }
 /* class of background that needs background of #ffe6ac */
 .background {
