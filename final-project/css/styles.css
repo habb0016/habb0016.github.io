@@ -94,9 +94,19 @@ div.navigation {
 }
 /* styles nav links */
 nav a {
+    /* remove underline, space and display inline for nav links */
+    display: inline-block;
     text-decoration: none;
+    padding: 1em;
 }
-
+/* styles searchbox */
+.searchbox {
+    font-size: 20px;
+}
+.search-bttn {
+    border: solid 1px #c78c06;
+    padding: 5px;
+}
 
 /* sets default color for home button */
 div.box a {
