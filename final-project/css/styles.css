@@ -148,8 +148,12 @@ nav a:hover, a:active {
 /* welcome background image and flex */
 div.welcome {
     background-image: url("../images/main-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90%;
+    /* welcome div with flex for child wrapper */
     display: flex;
-    padding: 4em 0 4em 0;
+    padding: 4em  0 4em 0;
 }
 /* styles welcome section */
 section.welcome {
@@ -176,6 +180,15 @@ div.service img {
 /* background for our vision */
 div.our-vision {
     background-image: url("../images/vision.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* google maps styling */
+#location iframe {
+    width: 100%;
+    height: 25em;
+    padding-top: 1em;
 }
 /* styles footer */
 footer {
