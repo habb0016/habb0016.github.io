@@ -84,6 +84,10 @@ a { font-size: 20px; }
     padding: 1em;
     max-width: 100%;
 }
+/* remove border on all buttons */
+.bttn {
+    border: none;
+}
 /* match image width to parent for all img except logo */
 main img {
     width: 100%;
@@ -177,6 +181,12 @@ section.alpha {
 div.service img {
     width: 100%;
 }
+/* service buttons */
+.service .bttn{
+    padding: 1em;
+    color: white;
+    background-color: #222;
+}
 /* background for our vision */
 div.our-vision {
     background-image: url("../images/vision.jpg");
@@ -184,11 +194,54 @@ div.our-vision {
     background-size: cover;
     color: white;
 }
+/* our vision button */
+.vision button {
+    padding: 1em;
+    color: white;
+    border: 1px solid #c78c06;
+    background-color:rgba(34, 34, 34, 90%);
+}
+/* contact us */
+
+/* hours of operation */
+table {
+    border: solid 1px black;
+    width: 100%;
+}
+/* contact form styling */
+/* name and email text field size */
+.contact .field {
+    width: 100%;
+}
+/* disable box resize for textarea */
+.contact textarea {
+    width: 100%;
+    resize: none;
+}
+/* send button */
+#send-bttn {
+    background-color: #222;
+    color: #c78c06;
+}
+/* space all h3's for contact */
+.contact h3 {
+    padding: 0.5em 0 0.5em 0;
+}
+/* title cells */
+table th{
+    border: solid 1px black;
+    background-color: #ffe6ac;
+    padding: 1em;
+}
+/* data cells */
+table td {
+    border: solid 1px black;
+    padding: 1em;
+}
 /* google maps styling */
 #location iframe {
     width: 100%;
     height: 25em;
-    padding-top: 1em;
 }
 /* styles footer */
 footer {
