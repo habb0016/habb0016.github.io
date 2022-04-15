@@ -82,6 +82,11 @@ a { font-size: 20px; }
 /* mobile first */
 .wrapper {
     padding: 1em;
+    max-width: 100%;
+}
+/* match image width to parent */
+img {
+    width: 100%;
 }
 /* styles navigation */
 div.navigation {
@@ -143,7 +148,6 @@ nav a:hover, a:active {
 /* welcome background image and flex */
 div.welcome {
     background-image: url("../images/main-banner.jpg");
-    background-size: 100%;
     display: flex;
     padding: 4em 0 4em 0;
 }
@@ -152,6 +156,7 @@ section.welcome {
     color: white;
     padding-top: 2.5rem;
 }
+/* wrapper for welcome section */
 .wrap-welcome {
     width: 95%;
 }
@@ -164,11 +169,18 @@ section.alpha {
 .background {
     background-color: #ffe6ac;
 }
+/* our services images */
+div.service img {
+    width: 100%;
+}
 /* background for our vision */
 div.our-vision {
     background-image: url("../images/vision.jpg");
 }
-/* background for footer */
+/* styles footer */
 footer {
     background-color: #222;
+    color: #c78c06;
 }
+
+
