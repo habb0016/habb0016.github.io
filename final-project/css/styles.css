@@ -70,6 +70,7 @@ h1 {
 h2 {
     font-size: 39px;
     font-weight: bold;
+    padding: 0.5em 0 0.5em 0;
 }
 h3 {
     font-size: 25px;
@@ -137,6 +138,12 @@ given display of flex */
 div.box a {
     color: #222;
 }
+/* spaces all p in main  */
+main p {
+    padding: 0.5em 0 0.5em 0;
+    /* 1.25 spacing for paragraphs in main */
+    line-height: 125%;
+}
 /* when hover and active set to white */
 .box a:hover, a:active {
     color: white;
@@ -196,7 +203,7 @@ div.our-vision {
 }
 /* our vision button */
 .vision button {
-    padding: 1em;
+    padding: 1.5em;
     color: white;
     border: 1px solid #c78c06;
     background-color:rgba(34, 34, 34, 90%);
@@ -212,21 +219,26 @@ table {
 /* name and email text field size */
 .contact .field {
     width: 100%;
+    margin: 0.5em 0 0.5em 0;
 }
 /* disable box resize for textarea */
 .contact textarea {
     width: 100%;
     resize: none;
+    margin: 0.5em 0 1.5em 0;
 }
+
 /* send button */
 #send-bttn {
     background-color: #222;
     color: #c78c06;
+    padding: 0.25em;
 }
 /* space all h3's for contact */
 .contact h3 {
     padding: 0.5em 0 0.5em 0;
 }
+
 /* title cells */
 table th{
     border: solid 1px black;
@@ -247,6 +259,10 @@ table td {
 footer {
     background-color: #222;
     color: #c78c06;
+}
+/* spacing for footer */
+#copyright p {
+    padding-top: 1em;
 }
 
 
