@@ -76,10 +76,24 @@ h3 {
     font-size: 25px;
     font-weight: bold;
 }
+h4 {
+    font-weight: bold;
+}
+/* job titles styling */
+h5 {
+    padding-top: 0.5em;
+    font-weight: bolder;
+}
 p { font-size: 18px; }
 /* all regular buttons */
 .bttn { font-size: 20px; }
 a { font-size: 20px; }
+/* horizontal line for our team */
+hr {
+    height: 2px;
+    background-color: #c78c06;
+    border: none;
+}
 /* mobile first */
 .wrapper {
     padding: 1em;
@@ -264,5 +278,12 @@ footer {
 #copyright p {
     padding-top: 1em;
 }
+/* Desktop (screen size 760px and over) */
+@media screen and (min-width: 760px){
+    /* resize text (make smaller) */
+    p {
+        font-size: 16px;
+    }
 
-
+    
+}
