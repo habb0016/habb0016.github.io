@@ -134,6 +134,14 @@ nav a {
     text-decoration: none;
     padding: 1em;
 }
+/* hides desktop home */
+.home {
+    display: none;
+}
+/* hides desktop elements */
+.desktop {
+    display: none;
+}
 /* search is a div that contains searchbox and search bttn
 given display of flex */
 .search {
@@ -284,6 +292,44 @@ footer {
     p {
         font-size: 16px;
     }
-
-    
+    /* container for logo, hom and background colour */
+    .box {
+        display: none;
+    }
+    /* display inline for nav */
+    nav li, .home, .desktop {
+        display:inline-flex;
+        /* aligns logo buttons and search */
+        vertical-align: middle;
+        justify-content: space-between;
+    }
+    /* .home active */
+    .home a {
+        color: #222;
+        background-color: #c78c06;
+    }
+    /* padding home */
+    .home {
+        padding-left: 3em;
+    }
+    /* hide mobile searchbar */
+    .search {
+        display: none;
+    }
+    /* spacing unordered list items */
+    nav ul li {
+        padding-right: 0.5em;
+    }
+    /* flex to center welcome section */
+    div.welcome {
+        display: flex;
+        justify-content: center;
+    }
+    /* welcome section width */
+    section.welcome {
+        max-width: 80%;
+    }
+    .welcome h1 {
+        max-width: 80%;
+    }
 }

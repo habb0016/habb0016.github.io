@@ -17,17 +17,26 @@
         <!-- navigation parents nav for styling -->
         <div class="wrapper navigation">
             <nav>
-                <!-- class of box to make colour banner -->
+                <!-- class of box to make colour banner for mobile -->
                 <div class="box">
                     <img src="images/logo.png" alt="stars"><br>
                     <a class="active" href="#">Home</a>
                 </div>
                 <ul>
+                    <!-- hide for mobile -->
+                    <li><img class="desktop" id="desktopLogo" src="images/logo.png" alt="stars"></li>
+                    <li class="home"><a href="#">Home</a></li>
                     <!-- each li will link to part of the page -->
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
+                    <!-- hide for mobile -->
+                    <li>
+                        <input class="desktop dsearch" type="text" placeholder="Search"> 
+                        <!-- id of dsbutton for desktop search button -->
+                        <a class="search-bttn desktop" id="dsbutton" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
                 </ul>
                 <!-- search bar and button in div for flex-basis 
                 search parents input and a for flex -->
