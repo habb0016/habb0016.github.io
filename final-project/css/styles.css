@@ -221,6 +221,8 @@ div.our-vision {
     background-image: url("../images/vision.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /* centers image */
+    background-position: center;
     color: white;
 }
 /* our vision button */
@@ -296,6 +298,10 @@ footer {
     .mobile {
         display: none;
     }
+    /* white space around services */
+    .service {
+        margin: 0.5em;
+    }
     /* centers everything using display of flex */
     .displayWrap {
         display: flex;
@@ -327,24 +333,12 @@ footer {
             "service3 service3 service4 service4 service5 service5"
     }
     /* grid areas for display services  */
-    .displayServices h2{
-        grid-area: h2;
-    }
-    .service1{
-        grid-area: service1;
-    }
-    .service2{
-        grid-area: service2;
-    }
-    .service3{
-        grid-area: service3;
-    }
-    .service4{
-        grid-area: service4;
-    }
-    .service5{
-        grid-area: service5;
-    }
+    .displayServices h2{grid-area: h2;}
+    .service1{grid-area: service1;}
+    .service2{grid-area: service2;}
+    .service3{grid-area: service3;}
+    .service4{grid-area: service4;}
+    .service5{grid-area: service5;}
     /* display for our team */
     .displayTeam{
         display: grid;
@@ -378,6 +372,10 @@ footer {
         grid-column: 2;
         grid-row: 3;
     }
+    /* removes br from desktop */
+    .our-team br {
+        display: none;
+    }
     /* display for contact */
     .displayContact {
         display: grid;
@@ -388,25 +386,24 @@ footer {
         grid-template-areas: 
             "h2 h2"
             "formContent location"
-            "hours hours"
+            "hours hours";
+    }
+    /* contact us divs */
+    .contact {
+        margin: 0.5em;
     }
     /* grid areas for contact us */
-    .displayContact h2 {
-        grid-area: h2;
-    }
-    #formContent {
-        grid-area: formContent;
-    }
-    #location {
-        grid-area: location;
-    }
-    #hours {
-        grid-area: hours;
+    .displayContact h2 {grid-area: h2;}
+    #formContent {grid-area: formContent;}
+    #location {grid-area: location;}
+    #hours {grid-area: hours;}
+    /* map size */
+    #location iframe {
+        width: 100%;
+        height: 30vmax;
     }
     /* container for logo, hom and background colour */
-    .box {
-        display: none;
-    }
+    .box {display: none;}
     /* display inline for nav */
     nav li, .home, .desktop {
         display:inline-flex;
@@ -414,38 +411,44 @@ footer {
         vertical-align: middle;
         justify-content: space-between;
     }
+    /* about us image and section padding */
+    .about, #about-img {
+        padding: 0.5em
+    }
+    /* our services buttons */
+    .service .bttn{
+        width: 100%;
+    } 
     /* .home active */
     .home a {
         color: #222;
         background-color: #c78c06;
     }
     /* padding home */
-    .home {
-        padding-left: 3em;
-    }
+    .home {padding-left: 3em;}
     /* hide mobile searchbar */
-    .search {
-        display: none;
-    }
+    .search {display: none;}
     /* spacing unordered list items */
-    nav ul li {
-        padding-right: 0.5em;
-    }
+    nav ul li {padding-right: 0.5em;}
     /* flex to center welcome section */
     div.welcome {
         display: flex;
         justify-content: center;
     }
     /* welcome section width (grey transparent area) */
-    section.welcome {
-        max-width: 80%;
-    }
+    section.welcome {max-width: 80%;}
     /* restricts h1 length */
-    .welcome h1 {
-        width: 75%;
+    .welcome h1 {width: 75%;}
+    /* dMessage is the div for desktop message box */
+    .dMessage {
+        width: 100%;
     }
     /* footer width */
     #copyright {
         width: 80%;
+    }
+    /* match p in size */
+    #copyright a {
+        font-size: 17px;
     }
 }
