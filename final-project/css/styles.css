@@ -100,26 +100,18 @@ hr {
     max-width: 100%;
 }
 /* remove border on all buttons */
-.bttn {
-    border: none;
-}
+.bttn {border: none;}
 /* match image width to parent for all img except logo */
-main img {
-    width: 100%;
-}
+main img {width: 100%;}
 /* styles navigation */
 div.navigation {
     background-color: #222;
     text-align: center;
 }
 /* displays logo on left */
-.box img {
-    display: block;
-}
+.box img {display: block;}
 /* adds box around home and logo */
-.box {
-    background-color: #c78c06;
-}
+.box {background-color: #c78c06;}
 /* styles button in welcome */
 .connect {
     background-color: #c78c06;
@@ -135,18 +127,12 @@ nav a {
     padding: 1em;
 }
 /* hides desktop home */
-.home {
-    display: none;
-}
+.home {display: none;}
 /* hides desktop elements */
-.desktop {
-    display: none;
-}
+.desktop {display: none;}
 /* search is a div that contains searchbox and search bttn
 given display of flex */
-.search {
-    display: flex;
-}
+.search {display: flex;}
 /* styles searchbox */
 .searchbox {
     font-size: 20px;
@@ -157,9 +143,7 @@ given display of flex */
     padding: 4px;
 }
 /* sets default color for home button */
-div.box a {
-    color: #222;
-}
+div.box a {color: #222;}
 /* spaces all p in main  */
 main p {
     padding: 0.5em 0 0.5em 0;
@@ -167,17 +151,11 @@ main p {
     line-height: 125%;
 }
 /* when hover and active set to white */
-.box a:hover, a:active {
-    color: white;
-}
+.box a:hover, a:active {color: white;}
 /* link and state of visited */
-nav a:link, a:visited {
-    color:#c78c06
-}
+nav a:link, a:visited {color:#c78c06}
 /* hover and active */
-nav a:hover, a:active {
-    color:white;
-}
+nav a:hover, a:active {color:white;}
 /* welcome background image and flex */
 div.welcome {
     background-image: url("../images/main-banner.jpg");
@@ -194,18 +172,14 @@ section.welcome {
     padding-top: 2.5rem;
 }
 /* wrapper for welcome section */
-.wrap-welcome {
-    width: 95%;
-}
+.wrap-welcome {width: 95%;}
 /* adds faded background to welcome section */
 section.alpha {
     background-color: rgba(0, 0, 0, 70%);
     width: 100%;
 }
 /* class of background that needs background of #ffe6ac */
-.background {
-    background-color: #ffe6ac;
-}
+.background {background-color: #ffe6ac;}
 /* our services images */
 div.service img {
     width: 100%;
@@ -232,8 +206,6 @@ div.our-vision {
     border: 1px solid #c78c06;
     background-color:rgba(34, 34, 34, 90%);
 }
-/* contact us */
-
 /* hours of operation */
 table {
     border: solid 1px black;
@@ -251,7 +223,6 @@ table {
     resize: none;
     margin: 0.5em 0 1.5em 0;
 }
-
 /* send button */
 #send-bttn {
     background-color: #222;
@@ -259,10 +230,7 @@ table {
     padding: 0.25em;
 }
 /* space all h3's for contact */
-.contact h3 {
-    padding: 0.5em 0 0.5em 0;
-}
-
+.contact h3 {padding: 0.5em 0 0.5em 0;}
 /* title cells */
 table th{
     border: solid 1px black;
@@ -285,23 +253,15 @@ footer {
     color: #c78c06;
 }
 /* spacing for footer */
-#copyright p {
-    padding-top: 1em;
-}
+#copyright p {padding-top: 1em;}
 /* Desktop (screen size 760px and over) */
 @media screen and (min-width: 760px){
     /* resize text (make smaller) */
-    p {
-        font-size: 16px;
-    }
+    p {font-size: 16px;}
     /* class of mobile hidden on desktop */
-    .mobile {
-        display: none;
-    }
+    .mobile {display: none;}
     /* white space around services */
-    .service {
-        margin: 0.5em;
-    }
+    .service {margin: 0.5em;}
     /* centers everything using display of flex */
     .displayWrap {
         display: flex;
@@ -312,9 +272,7 @@ footer {
         display: grid;
     } */
     /* dtCenter is a wrapper for the desktop centered content (not fullwidth) */
-    .dtCenter {
-        width: 80%;
-    }
+    .dtCenter {width: 80%;}
     /* about display as grid */
     .displayAbout {
         display: grid;
@@ -373,9 +331,7 @@ footer {
         grid-row: 3;
     }
     /* removes br from desktop */
-    .our-team br {
-        display: none;
-    }
+    .our-team br {display: none;}
     /* display for contact */
     .displayContact {
         display: grid;
@@ -389,9 +345,7 @@ footer {
             "hours hours";
     }
     /* contact us divs */
-    .contact {
-        margin: 0.5em;
-    }
+    .contact {margin: 0.5em;}
     /* grid areas for contact us */
     .displayContact h2 {grid-area: h2;}
     #formContent {grid-area: formContent;}
@@ -412,13 +366,9 @@ footer {
         justify-content: space-between;
     }
     /* about us image and section padding */
-    .about, #about-img {
-        padding: 0.5em
-    }
+    .about, #about-img {padding: 0.5em}
     /* our services buttons */
-    .service .bttn{
-        width: 100%;
-    } 
+    .service .bttn{width: 100%;} 
     /* .home active */
     .home a {
         color: #222;
@@ -440,15 +390,9 @@ footer {
     /* restricts h1 length */
     .welcome h1 {width: 75%;}
     /* dMessage is the div for desktop message box */
-    .dMessage {
-        width: 100%;
-    }
+    .dMessage {width: 100%;}
     /* footer width */
-    #copyright {
-        width: 80%;
-    }
+    #copyright {width: 80%;}
     /* match p in size */
-    #copyright a {
-        font-size: 17px;
-    }
+    #copyright a {font-size: 17px;}
 }
