@@ -292,6 +292,15 @@ footer {
     p {
         font-size: 16px;
     }
+    /* centers everything using display of flex */
+    .displayWrap {
+        display: flex;
+        justify-content: center;
+    }
+    /* dtCenter is a wrapper for the desktop centered content (not fullwidth) */
+    .dtCenter {
+        width: 80%;
+    }
     /* container for logo, hom and background colour */
     .box {
         display: none;
@@ -325,11 +334,15 @@ footer {
         display: flex;
         justify-content: center;
     }
-    /* welcome section width */
+    /* welcome section width (grey transparent area) */
     section.welcome {
         max-width: 80%;
     }
+    /* restricts h1 length */
     .welcome h1 {
-        max-width: 80%;
+        width: 75%;
+    }
+    #copyright {
+        width: 80%;
     }
 }
